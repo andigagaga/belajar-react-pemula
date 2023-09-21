@@ -9,10 +9,6 @@ import RegisterPage from './Pages/register.jsx'
 const router = createBrowserRouter([
   {
     path:"/",
-    element:<div>Hello World</div>
-  },
-  {
-    path:"/login",
     element:<LoginPage />
   },
   {
